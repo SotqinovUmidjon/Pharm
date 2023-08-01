@@ -1,0 +1,44 @@
+.Footer {
+	width: 100%;
+	background: #002940;
+}
+.footerTop{
+	display: flex;
+	align-items: start;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 30px 0px;
+}
+.footerPharm {
+	width: 350px;
+}
+.footerPharm p {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	margin-left: 15px;
+	letter-spacing: 1px;
+	/* line-height: 157.4%; */
+}
+.Xarita {
+	color: #fff;
+}
+.Xarita li, a {
+	color: #fff;
+	margin-top: 12px;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+.line {
+	width: 75%;
+	margin: 0 auto;
+	padding: 30px;
+	text-align: center;
+	border-top: 2px solid #F2CE9A;
+}
+.line p {
+	color: #F2CE9A;
+	font-size: 20px;
+}
+

@@ -1,0 +1,534 @@
+.top {
+	position: fixed;
+	right: -100px;
+	bottom: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #000;
+	border-radius: 7px;
+	padding: 6px 8px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: all .3s;
+}
+.top.active {
+	right: 30px;
+}
+.top:hover {
+	background-color: #002940;
+	color: #fff;
+}
+
+.Asosiy {
+	width: 100%;
+	background-color: #F1F1F1;
+}
+:root {
+	--main-color: #002940;
+}
+.sirob {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 20px 0px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.sirobName h1 {
+	color: #002940;
+	font-weight: 700;
+	font-size: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	letter-spacing: 2px;
+}
+.sirobName p{
+	color: #002940;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.sirob button {
+	background: #002940;
+	border-radius: 9.72813px;
+	color: #F2CE9A;
+	padding: 8px 25px;
+	cursor: pointer;
+}
+.mahsulot {
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.imunitetLi {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	gap: 60px;
+	margin-bottom: 40px;
+}
+.imunitetLi li {
+	min-width: 200px;
+	min-height: 150px;
+	padding: 5px;
+	background: #fff;
+	border-radius: 10.4062px;
+	transition: .3s;
+}
+.imunitetLi li:hover {
+	scale: 1.1;
+}
+.imunitetLi li p {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+.imunitetLi li img {
+	border-radius: 5px;
+}
+.mahsulot h1 {
+	margin-bottom: 20px;
+	letter-spacing: 2.5px;
+	font-family: 'Montserrat', sans-serif;
+	color: var(--main-color);
+}
+.mahsulot p {
+	color: var(--main-color);
+	margin-bottom: 30px;
+}
+.news {
+	text-align: center;
+ margin: 0 auto;
+}
+.news h1{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	letter-spacing: 2.5px;
+	font-family: 'Montserrat', sans-serif;
+	color: var(--main-color);
+}
+.news img {
+	width: 65%;
+	height: 500px;
+}
+.news h2 {
+	margin-top: 50px;
+	margin-bottom: 10px;
+	letter-spacing: 2.5px;
+	font-family: 'Montserrat', sans-serif;
+	color: var(--main-color)
+}
+.news p {
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+.news a {
+	background: #002940;
+	border-radius: 7.45938px;
+	text-decoration: none;
+	padding: 8px 15px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+.project {
+	text-align: center;
+	margin-top: 40px;
+}
+.project h1 {
+	margin-top: 50px;
+	margin-bottom: 10px;
+	letter-spacing: 2.5px;
+	font-family: 'Montserrat', sans-serif;
+	color: var(--main-color)
+}
+.project p {
+	color: var(--main-color);
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+.projectSpan {
+	margin-right: 20px;
+	text-decoration: underline;
+	color: #000;
+	cursor: pointer;
+}
+.projectSpan:active {
+	color: #F2CE9A;
+	text-decoration: none;
+}
+.div {
+	width: 75%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	flex-wrap: wrap;
+}
+.imgPro img {
+	width: 160px;
+	height: 180px;
+	object-fit: contain;
+}
+.imgPro {
+	min-width: 200px;
+	min-height: 200px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.product p {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	/* line-height: 34px; */
+	color: #002940;
+}
+.btn {
+	background: #002940;
+	border-radius: 7.45938px;
+	padding: 8px 20px;
+	border: none;
+	color: #fff;
+	margin-top: 30px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+.product {
+	position: relative;
+	transition: all .3s ;
+	margin-top: 30px;
+	transition: .9s;
+}
+.hoverPro {
+	position: absolute;
+	min-width: 200px;
+	height: 0px;
+	background-color: #00294081;
+	border-radius: 10px;
+	top: 0px;
+	bottom: -135;
+	opacity: 0;
+	transition: .5s;
+}
+.product:hover .hoverPro{
+	height: 200px;
+	opacity: 1;
+	top: 0;
+	bottom: 0px;
+}
+.product .productHover {
+	position: absolute;
+	top: 118px;
+	left: 0px;
+	opacity: 1;
+	transition: .5s;
+}
+.iconPro {
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	opacity: 0;
+	transition: .5s;
+}
+.product:hover .iconPro {
+	opacity: 1;
+	top: 35px;
+	left: 3px;
+}
+.product:hover .productName {
+	position: relative;
+	opacity: 0;
+}
+.product:hover .productHover {
+	display: flex;
+	opacity: 1;
+	align-items: end;
+	justify-content: center;
+	top: 118px;
+	left: 57px;
+}
+.productStar{
+	position: absolute;
+	top: 175px;
+	left: 45px;
+	opacity: 0;
+	transition: .5s;
+	/* margin: 15px; */
+}
+.flag {
+	font-size: 22px;
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	transition: .9s;
+}
+.product:hover .flag {
+	left: -150px;
+}
+.product:hover .productStar{
+	top: 200px;
+	opacity: 1;
+}
+.flagPharm {
+	display: none;
+}
+.product:hover .flagPharm {
+	display: flex;
+}
+.productHoverBtn a{
+	border: 1px solid #002940;
+	background-color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: none;
+	color: #002940;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.btnPages {
+	background: #002940;
+	border-radius: 9.72813px;
+	border: none;
+	color: #F2CE9A;
+	padding: 8px 25px;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-right: 5px;
+}
+
+.chegirma {
+	width: 85%;
+	background-color: #fff;
+	border-radius: 41px;
+	padding: 45px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+}
+.chegirma35 h2 {
+	font-family: 'Montserrat' sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 31.1985px;
+	line-height: 38px;
+	text-transform: uppercase;
+	color: #000AFF;
+	padding-bottom: 30px;
+}
+.chegirma h1 {
+	font-family: 'Montserrat' sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 34px;
+	letter-spacing: 1px;
+	color: #002940;
+}
+.chegirma35 p {
+	font-family: 'Montserrat' sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	color: #002940;
+	padding-top: 15px;
+}
+.chegirma35 p i {
+	padding-right: 5px;
+	color: green;
+	font-size: 18px;
+}
+.chegirma35 button {
+	font-family: 'Montserrat' sans-serif;
+	letter-spacing: 1px;
+	color: #F2CE9A;
+	padding: 8px 15px;
+	border: none;
+	margin-top: 30px;
+	background: #002940;
+	border-radius: 5.56875px;
+	cursor: pointer;
+}
+.yangiTarkib {
+	width: 75%;
+	margin: 0 auto;
+}
+.yangitarkiblar {
+	text-align: center;
+	margin-top: 80px;
+}
+.yangitarkiblar h1{
+	font-family: 'Montserrat' sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 59px;
+	color: #002940;
+}
+.yangitarkiblar p {
+	font-family: 'Montserrat' sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 29px;
+	color: #002940;
+	padding-top: 15px;
+}
+.Mijozlarfikri {
+	width: 78%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+.mijozBox {
+	width: 260px;
+	background-color: #fff;
+	border-radius: 15px;
+	margin-top: 30px;
+	transition: .3s;
+}
+.mijozBox:hover {
+	scale: 1.1;
+	/* margin-top: 30px;
+	margin-left: 30px; */
+}
+.mijozName {
+	text-align: start;
+}
+.mijozCard {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px;
+}
+.fikr {
+	margin-top: 20px;
+	padding: 20px 5px;
+	text-align: start;
+}
+.fikr h6 {
+	margin-bottom: 15px;
+}
+.data {
+	padding: 30px 10px;
+	text-align: start;
+}
+.Mijoz {
+	text-align: center;
+	margin: 0 auto;
+}
+.Hamkorlar {
+	width: 75%;
+	margin:  0 auto;
+	text-align: center;
+}
+.hamkorImg {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: center;
+	margin-top: 20px;
+}
+.hamkorImg img {
+	width: 150px;
+}
+.Tavsiyalar {
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+}
+.tavsiyalarBox {
+	display: flex;
+	gap: 20px;
+}
+.tavsiyalarBox1 {
+	display: flex;
+	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
+	gap: 20px;
+	/* overflow-x: scroll; */
+}
+.tavsiyalarImg {
+	width: 100%;
+	margin-top: 30px;
+	transition: .3s;
+}
+.tavsiyalarImg:hover {
+	opacity: .2;
+}
+.tavsiyalarImg:hover .tavsiyalarImg{
+	opacity: 0;
+}
+.swiper, swiper-container {
+	/* margin-left: 20px; */
+	padding: 0px 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.imgSlide {
+	width: 250px;
+	min-height: 220px;
+	background-color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.imgSlide img {
+	object-fit: cover;
+}
+.media1 {
+	display: none;
+}
+
+@media (max-width:950px) {
+	.sirob {
+		width: 100%;
+		margin-bottom: 30px;
+		padding: 5px;
+	}
+	.sirob img {
+		width: 300px;
+	}
+	.news img {
+		width: 90%;
+		height: 280px;
+	}
+	.media {
+		display: none;
+	}
+	.media1 {
+		display: block;
+		width: 100%;
+		margin-top: 30px;
+	}
+	.imgSlide {
+		margin: 20px;
+		padding: 20px;
+		text-align: center;
+	}
+	.tavsiyalarBox {
+		overflow-x: scroll;
+		gap: 5px;
+	}
+	.Hamkorlar {
+		text-align: center;
+	}
+	.hamkorImg {
+		justify-content: center;
+	}
+}

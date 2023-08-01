@@ -1,0 +1,191 @@
+.BizHaqimizda {
+	background-color: #F1F1F1;
+}
+
+.haqimizda {
+	width: 100%;
+	min-height: 700px;
+	background-size: cover;
+	background-image: url(../imgs/aboutwall.png);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0px 75px;
+	margin-bottom: 60px;
+}
+
+.bizHaqimizda {
+	width: 100%;
+}
+
+.bizHaqimizda h1 {
+	font-family: 'Montserrat' sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 55.5891px;
+	line-height: 130%;
+	color: #002940;
+}
+
+.foyda {
+	width: 90%;
+	min-height: 400px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-top: 1px solid #002940;
+	border-bottom: 1px solid #002940;
+	padding: 20px 20px;
+}
+
+.foydaMijoz {
+	width: 50%;
+}
+
+.foydaMijoz span {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	color: rgba(0, 41, 64, 0.85);
+}
+
+.foydaDiv {
+	font-family: 'Montserrat' sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 55px;
+	/* or 179% */
+
+
+	color: #002940;
+
+}
+
+.count {
+	width: 90%;
+	min-height: 300px;
+	margin: 00 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/* text-align: center; */
+}
+
+.count div h1 {
+	font-size: 85px;
+	padding: 10px 0px;
+	text-align: start;
+}
+.countSpan {
+	color: #F2CE9A;
+}
+.HamkorlarAbout {
+	width: 90%;
+	margin:  0 auto;
+	border-top: 1px solid #002940;
+	border-bottom: 1px solid #002940;
+	padding: 30px 0px;
+}
+.HamkorlarAbout h1 {
+	font-family: 'Montserrat' sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 59px;
+	color: #002940;
+	margin-bottom: 30px;
+}
+.hamkorImg{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.Aloqa {
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #002940;
+	padding: 30px 0px;
+}
+.Aloqa h1 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 38px;
+	/* padding-top: 50px; */
+	line-height: 86px;
+	color: #000000;
+}
+.Aloqa p {
+	font-family: 'Montserrat' sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
+	color: rgba(0, 41, 64, 0.85);
+}
+.aloqaImg {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+.Jamoa {
+	width: 80%;
+	display: flex;
+	/* flex-wrap: wrap; */
+	margin: 0 auto;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px 0px;
+}
+.jamoaDiv {
+	width: 100%;
+}
+.jamoaDiv h2 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 86px;
+	color: #000000;
+}
+.jamoaDiv h3 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 45px;
+	color: #002940;
+}
+.jamoaDiv h3 span {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+}
+.jamoaDiv p {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 28px;
+	color: #002940;
+}
+
+@media (max-width:500px) {
+	.foydaMijoz {
+		width: 90%;
+	}
+	.Jamoa {
+		flex-wrap: wrap;
+		gap: 40px;
+	}
+	.haqimizda {
+		padding: 0px 20px;
+	}
+}

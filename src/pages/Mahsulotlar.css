@@ -1,0 +1,64 @@
+.Mahsulotlar {
+	width: 100%;
+	background-color: #F1F1F1;
+}
+
+.stestlar {
+	width: 85%;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	gap: 30px;
+	padding: 30px 0px;
+}
+
+.stestlar li {
+	cursor: pointer;
+	font-size: 22px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	line-height: 142%;
+	color: #000000;
+}
+
+.stestlar li:active {
+	color: aqua;
+}
+
+.imunitetDiv {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	gap: 10px;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+.youtubeVideo {
+	text-align: center;
+	margin-top: 50px;
+	padding-bottom: 40px;
+}
+
+.youtubeVideo h1 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 78px;
+	color: #002940;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+	.youtubeVideo iframe {
+		width: 80%;
+		height: 380px;
+	}
+}

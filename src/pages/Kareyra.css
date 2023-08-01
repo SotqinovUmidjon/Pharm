@@ -1,0 +1,162 @@
+.Kareyra {
+	width: 100%;
+	background-color: #f1f1f1;
+}
+
+.jamoa {
+	width: 100%;
+	height: 600px;
+	background-image: url(../imgs/kareyrabg.png);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0px 75px;
+	margin-bottom: 60px;
+}
+
+.bizHaqimizda h2 {
+	font-family: 'Montserrat' sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45.5891px;
+	line-height: 130%;
+	color: #002940;
+}
+
+.bizHaqimizda button {
+	background: #002940;
+	border-radius: 17px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18.3px;
+	padding: 5px 25px;
+	line-height: 133.4%;
+	margin-top: 30px;
+	color: #F2CE9A;
+	border: none;
+	cursor: pointer;
+}
+.qadriyatlar {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+.qadriyatlar .swiper {
+  width: 100%;
+  height: 100%;
+	padding: 30px 0;
+	position: relative;
+}
+
+.qadriyatlar .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.qadriyatlar .swiper-slide img {
+  display: block;
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+	margin: 0 auto;
+}
+.kareyraSlider {
+	position: relative;
+	margin-bottom: 50px;
+}
+.kareyraSlider p {
+	width: 80%;
+	margin: 0 auto;
+}
+.kareyraAriza {
+	text-align: center;
+	padding-top: 50px;
+
+}
+.inputKoreyra{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+.inputName {
+	text-align: start	;
+	width: 400px;
+}
+.inputName input {
+	width: 90%;
+	background: #D9D9D9;
+	outline: none;
+	border: none;
+	padding: 10px;
+	border-radius: 10px;
+}
+.inputName select {
+	width: 90%;
+	border-radius: 14.3115px;
+	background: #D9D9D9;
+	outline: none;
+	border: none;
+	padding: 10px;
+}
+.inputManzil {
+	text-align: start	;
+	width: 400px;
+}
+.inputManzil input {
+	width: 90%;
+	background: #D9D9D9;
+	outline: none;
+	border: none;
+	padding: 10px;
+	border-radius: 10px;
+}
+.inputManzil select {
+	width: 90%;
+	border-radius: 14.3115px;
+	background: #D9D9D9;
+	outline: none;
+	border: none;
+	padding: 10px;
+}
+.kareyraForm {
+	width: 100%;
+}
+.kareyraForm{
+	width: 30%;
+	border-radius: 14.3115px;
+	background: #D9D9D9;
+	outline: none;
+	border: none;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 550px) {
+	.jamoa {
+		padding-left: 20px;
+		font-size: 20px;
+	}
+
+	.bizHaqimizda {
+		padding: 0px 20px;
+	}
+
+	.bizHaqimizda h2 {
+		font-size: 35px;
+	}
+	.qadriyatlar .swiper-slide img {
+		width: 60%;
+	}
+}

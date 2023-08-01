@@ -1,0 +1,33 @@
+.hamkorlikHeader button {
+	background: #002940;
+	border-radius: 9.72813px;
+	color: #fff;
+	margin-top: 80px;
+}
+
+.hamkorlikHeaderImg img {
+	width: 500px;
+}
+
+.hamkorlikTurlari {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.hamkorlikTurlariBox1 img {
+	width: 90%;
+	height: 500px;
+}
+
+.hamkorlikTurlariBox1 button {
+	background: #002940;
+	border-radius: 9.72813px;
+	padding: 5px;
+	color: #fff;
+	margin-right: 20px;
+}
+.hamkorlikTurlariBox1Button {
+	background: #1AB800;
+	border-radius: 9.72813px;
+}

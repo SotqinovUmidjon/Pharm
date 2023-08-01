@@ -1,0 +1,171 @@
+.Yangiliklar {
+	width: 100%;
+	background-color: #f1f1f1;
+}
+
+.Yangiliklar .img {
+	padding-top: 30px;
+	text-align: center;
+}
+
+
+.yutuqlar {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 30px;
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+}
+
+.yutuqlarBox {
+	background: #002940;
+	border-radius: 32.6446px;
+	text-align: center;
+	padding-bottom: 10px;
+	cursor: pointer;
+	transition: all .3s;
+}
+.yutuqlarBox:hover {
+	scale: 1.1;
+}
+
+.yutuqlarH1 {
+	text-align: center;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 54px;
+	line-height: 78px;
+	color: #002940;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.yutuqlarBox img {
+	border-top-left-radius: 32.6446px;
+	border-top-right-radius: 32.6446px;
+	padding-bottom: 15px;
+}
+
+.yutuqlarBox p {
+	text-align: start;
+	padding-left: 10px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 19.6176px;
+	line-height: 39px;
+	color: #FFFFFF;
+}
+
+.yutuqlarBox img {
+	width: 100%;
+}
+
+.yutuqlarBox a {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17.7586px;
+	line-height: 24px;
+	text-decoration-line: underline;
+	color: #F2CE9A;
+	margin-bottom: 10px;
+}
+
+.ishJarayoni {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.ishJarayoni h1 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 59px;
+	color: #002940;
+}
+
+.ishJarayoni h2 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 45px;
+	text-align: center;
+	color: #000000;
+	padding-bottom: 15px;
+}
+
+.ishJarayoni p {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	color: #000000;
+}
+
+.ishJarayoni .swiper {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.ishJarayoni .swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 350px;
+	height: 350px;
+}
+
+.ishJarayoni .swiper-slide img {
+	display: block;
+	width: 100%;
+}
+
+.yangiliklarSleder {
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	padding-top: 30px;
+}
+
+.yangiliklarTarmoq {
+	text-align: center;
+}
+
+.yangiliklarTarmoq h1 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 59px;
+	color: #002940;
+	margin-bottom: 20px;
+}
+
+.tarmoqImg {
+	padding-bottom: 30px;
+}
+
+.tarmoqImg img {
+	width: 10%;
+}
+
+@media (max-width:900px) {
+	.yangiliklarSleder {
+		width: 95%;
+	}
+
+	.tarmoqImg img {
+		width: 20%;
+	}
+}

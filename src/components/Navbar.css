@@ -1,0 +1,143 @@
+.nav {
+	width: 100%;
+	background-color: #002940;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: antiquewhite;
+	padding: 15px 60px;
+}
+.loc{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px
+}
+.loc b {
+	font-size: 12px;
+}
+.loc span {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	color: #F2CE9A;
+}
+.num {
+	display: flex;
+	gap: 30px;
+}
+.num span {
+	font-size: 12px;
+	color: #F2CE9A;
+	display: flex;
+	align-items: center;
+}
+.num select {
+	background-color: #002940;
+	color: #fff;
+	border: none;
+	outline: none;
+}
+.pharm {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0px 50px;
+	background-color: #F1F1F1;
+}
+.pharmImg {
+	display: flex;
+	align-items: center;
+}
+.pharmInput input {
+	background: #FFFFFF;
+	border-radius: 10px;
+	width: 300px;
+	padding: 8px 10px;
+	outline: none;
+	border: none;
+}
+
+.links {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 80px;
+	background: #002940;
+	padding: 15px 0px;
+	/* position: fixed; */
+	position: sticky;
+	top: 0;
+}
+.links.active {
+	position: fixed;
+	z-index: 100;
+}
+.links a{
+	text-decoration: none;
+	color: #fff;
+}
+.links a.active {
+	color: #F2CE9A;
+}
+.links1 {
+	width: 250px;
+	min-height: 600px;
+	background-color: #002940;
+	display: block;
+	color: #fff;
+	margin-top: 390px;
+	margin-left: -50px;
+	padding: 10px 30px;
+	position: relative;
+}
+.u2023{
+	position: absolute;
+	bottom: 20px;
+	font-size: 15px;
+	color: #F2CE9A;
+}
+.links1Img {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0px;
+}
+.links1 a {
+	color: #fff;
+}
+.menu {
+	display: none;
+	font-size: 20px;
+	cursor: pointer;
+}
+.exit {
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+@media (max-width:950px) {
+	.num{
+		display: none;
+	}
+	.loc {
+		display: none;
+	}
+	.links {
+		display: none;
+	}
+	.menu{
+		display: block;
+	}
+	.links1 {
+		display: block;
+		position: fixed;
+		z-index: 100;
+	}
+	.pharm {
+		padding-bottom: 20px;
+	}
+}
